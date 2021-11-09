@@ -1,0 +1,33 @@
+/* 
+Project colors:
+    #FFFFFF
+    #000000
+    #C4C4C4
+    #F6F6F8
+    #000000 20%
+    #504DC2
+    #A1A1A1
+    #FFFFFF 15%
+
+Fonts:
+    Montserrat
+*/
+
+:root {
+    --main-font: 'Montserrat', sans-serif;
+
+    --main-text-color: #999999;
+    --main-bg-color: #ffffff;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color:  #00ffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+}
+
